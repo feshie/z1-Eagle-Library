@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -207,8 +207,8 @@
 <connect gate="G$1" pin="ADC5" pad="A10"/>
 <connect gate="G$1" pin="ADC6" pad="A8"/>
 <connect gate="G$1" pin="ADC7" pad="A6"/>
-<connect gate="G$1" pin="ADC_3V3" pad="A4 A14"/>
-<connect gate="G$1" pin="AGND" pad="A1 A2 A11 A12"/>
+<connect gate="G$1" pin="ADC_3V3" pad="A4 A14" route="any"/>
+<connect gate="G$1" pin="AGND" pad="A1 A2 A11 A12" route="any"/>
 <connect gate="G$1" pin="ALERT" pad="C41"/>
 <connect gate="G$1" pin="BSL_RX" pad="C47"/>
 <connect gate="G$1" pin="BSL_TX" pad="C53"/>
@@ -220,8 +220,8 @@
 <connect gate="G$1" pin="CAOUT" pad="C54"/>
 <connect gate="G$1" pin="CDP-3.3V" pad="B20"/>
 <connect gate="G$1" pin="CPDGND" pad="B18"/>
-<connect gate="G$1" pin="D-3V" pad="B22 C40"/>
-<connect gate="G$1" pin="DGND" pad="B24 C39"/>
+<connect gate="G$1" pin="D-3V" pad="B22 C40" route="any"/>
+<connect gate="G$1" pin="DGND" pad="B24 C39" route="any"/>
 <connect gate="G$1" pin="D_N" pad="B21"/>
 <connect gate="G$1" pin="D_P" pad="B19"/>
 <connect gate="G$1" pin="I2C_SCL" pad="B26"/>
